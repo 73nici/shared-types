@@ -8,4 +8,10 @@ export type TUserWithConfirmation = TUser & {
     passwordConfirmation: string
 }
 
+export type TUserWithNewData = TUserWithConfirmation & {
+    newUsername: string
+    newPassword: string
+    newPasswordConfirmation: string
+}
+
 export type TUserWithoutPassword = Omit<TUser, "password">
