@@ -3,7 +3,7 @@ import { TUserWithoutPassword } from '../entities'
 import { EUserMessages } from '../messages'
 
 
-export type TUserLoginResponse = TBaseResponse<TUserWithoutPassword, EUserMessages.REGISTER>
+export type TUserLoginResponse = TBaseResponse<TUserWithoutPassword, EUserMessages.LOGIN>
 export type TUserLogoutResponse = TBaseResponse<void, EUserMessages.LOGOUT>
 export type TUserRegisterResponse = TBaseResponse<TUserWithoutPassword, EUserMessages.REGISTER>
 export type TUserDeleteResponse = TBaseResponse<void, EUserMessages.DELETE>

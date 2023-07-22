@@ -3,6 +3,7 @@ import { EBaseStatus } from '../statuses'
 
 export abstract class BaseError extends Error {
     public status!: number
+    public message!: string
 }
 
 /**
