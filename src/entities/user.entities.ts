@@ -14,4 +14,4 @@ export type TUserWithNewData = TUserWithConfirmation & {
     newPasswordConfirmation: string
 }
 
-export type TUserWithoutPassword = Omit<TUser, "password">
+export type TUserWithoutPassword = Omit<TUser, 'password'>
