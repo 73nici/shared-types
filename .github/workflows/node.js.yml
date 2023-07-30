@@ -1,7 +1,5 @@
-name: Publish Package
-on:
-  release:
-    types: [published]
+name: Publish Package to Registry
+on: [ push ]
 
 jobs:
   build:
